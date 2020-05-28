@@ -245,7 +245,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 380913100}
-  m_LocalRotation: {x: 0.05619394, y: 0.033292234, z: -0.0018630754, w: 0.99786294}
+  m_LocalRotation: {x: 0.015085039, y: 0.033304423, z: -0.00049099885, w: 0.9993313}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -364,7 +364,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 587845279}
-  m_LocalRotation: {x: 0.038081855, y: 0.033321165, z: -0.0012634407, w: 0.99871814}
+  m_LocalRotation: {x: -0.00304692, y: 0.033308264, z: 0.00010865928, w: 0.9994405}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -440,7 +440,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 618985824}
-  m_LocalRotation: {x: 0.07433557, y: 0.033251777, z: -0.0024598383, w: 0.9966757}
+  m_LocalRotation: {x: 0.033260148, y: 0.033289276, z: -0.0010882844, w: 0.9988916}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -616,8 +616,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 715878819}
-  m_LocalRotation: {x: 0.056193553, y: 0.0332929, z: -0.0018748529, w: 0.99786294}
-  m_LocalPosition: {x: 0, y: 2.004, z: -4}
+  m_LocalRotation: {x: 0.015084653, y: 0.033304602, z: -0.00050272455, w: 0.9993313}
+  m_LocalPosition: {x: 0, y: 1.604, z: -3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 453694671}
@@ -749,9 +749,9 @@ MonoBehaviour:
     m_InputAxisName: Mouse X
     m_InputAxisValue: 0
     m_InvertInput: 0
-    m_MinValue: -90
-    m_MaxValue: 90
-    m_Wrap: 0
+    m_MinValue: -180
+    m_MaxValue: 180
+    m_Wrap: 1
     m_Recentering:
       m_enabled: 0
       m_WaitTime: 1
@@ -768,15 +768,15 @@ MonoBehaviour:
     m_RecenteringTime: 2
     m_LegacyHeadingDefinition: -1
     m_LegacyVelocityFilterStrength: -1
-  m_BindingMode: 5
+  m_BindingMode: 4
   m_SplineCurvature: 0.2
   m_Orbits:
-  - m_Height: 3
-    m_Radius: 4
-  - m_Height: 2
-    m_Radius: 4
-  - m_Height: 1
-    m_Radius: 4
+  - m_Height: 2.5
+    m_Radius: 3
+  - m_Height: 1.6
+    m_Radius: 3
+  - m_Height: 0.8
+    m_Radius: 3
   m_LegacyHeadingBias: 3.4028235e+38
   m_Rigs:
   - {fileID: 618985825}
@@ -790,7 +790,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 876084883}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 2.004, z: -4}
+  m_LocalPosition: {x: 0, y: 1.604, z: -3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 618985826}
@@ -964,8 +964,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9384ab8608cdc3d479fe89cd51eed48f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_BindingMode: 5
-  m_FollowOffset: {x: 0, y: 2, z: -4}
+  m_BindingMode: 4
+  m_FollowOffset: {x: 0, y: 1.6, z: -3}
   m_XDamping: 1
   m_YDamping: 1
   m_ZDamping: 1
@@ -1090,8 +1090,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9384ab8608cdc3d479fe89cd51eed48f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_BindingMode: 5
-  m_FollowOffset: {x: 0, y: 2, z: -4}
+  m_BindingMode: 4
+  m_FollowOffset: {x: 0, y: 1.6, z: -3}
   m_XDamping: 1
   m_YDamping: 1
   m_ZDamping: 1
@@ -1216,8 +1216,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9384ab8608cdc3d479fe89cd51eed48f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_BindingMode: 5
-  m_FollowOffset: {x: 0, y: 2, z: -4}
+  m_BindingMode: 4
+  m_FollowOffset: {x: 0, y: 1.6, z: -3}
   m_XDamping: 1
   m_YDamping: 1
   m_ZDamping: 1
@@ -1277,15 +1277,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1964704263138806, guid: e3d9a5b7a19f9684d9b63308cdfa95bd, type: 3}
+      propertyPath: m_Name
+      value: Character_Gunman_01
+      objectReference: {fileID: 0}
     - target: {fileID: 8693220882680371535, guid: e3d9a5b7a19f9684d9b63308cdfa95bd,
         type: 3}
       propertyPath: thirdPersonCam
       value: 
       objectReference: {fileID: 876084884}
-    - target: {fileID: 1964704263138806, guid: e3d9a5b7a19f9684d9b63308cdfa95bd, type: 3}
-      propertyPath: m_Name
-      value: Character_Gunman_01
+    - target: {fileID: 8693220882680371535, guid: e3d9a5b7a19f9684d9b63308cdfa95bd,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8693220882680371535, guid: e3d9a5b7a19f9684d9b63308cdfa95bd,
+        type: 3}
+      propertyPath: cam
+      value: 
+      objectReference: {fileID: 715878821}
     - target: {fileID: 4201403797357164, guid: e3d9a5b7a19f9684d9b63308cdfa95bd, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0

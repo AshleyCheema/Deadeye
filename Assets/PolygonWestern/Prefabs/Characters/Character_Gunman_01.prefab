@@ -2340,6 +2340,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   thirdPersonCam: {fileID: 0}
+  cam: {fileID: 0}
   originalOffsetAmount: 0.5
   zoomOffsetAmount: 0
   aimTime: 1

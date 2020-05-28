@@ -16,6 +16,8 @@ public class PlayerController : MonoBehaviour
     [Header("Cinemachine")]
     [SerializeField]
     private CinemachineFreeLook thirdPersonCam;
+    [SerializeField]
+    private Camera cam;
 
     [Space]
 
@@ -88,9 +90,11 @@ public class PlayerController : MonoBehaviour
 
     void PlayerLookAround()
     {
-        mouseX += Input.GetAxis("Mouse X") * rotationSpeed;
-        MouseY -= Input.GetAxis("Mouse Y") * rotationSpeed;
+        //mouseX += Input.GetAxis("Mouse X") * rotationSpeed;
+        //MouseY -= Input.GetAxis("Mouse Y") * rotationSpeed;
 
-        transform.rotation = Quaternion.Euler(0, mouseX, 0);
+        transform.LookAt(cam.transform.forward + (cam.transform.right * .1f));
+
+        //transform.rotation = Quaternion.Euler(0, mouseX, 0);
     }
 }
