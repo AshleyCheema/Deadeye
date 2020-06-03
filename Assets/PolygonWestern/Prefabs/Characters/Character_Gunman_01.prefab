@@ -2345,6 +2345,7 @@ MonoBehaviour:
   zoomOffsetAmount: 0
   aimTime: 1
   rotationSpeed: 2
+  gun: {fileID: 0}
 --- !u!1 &1968527401152822
 GameObject:
   m_ObjectHideFlags: 0
